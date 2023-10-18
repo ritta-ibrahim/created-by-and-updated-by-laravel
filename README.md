@@ -20,3 +20,8 @@ class Category extends Model
 ```
 
 Now whenever you save a new record without manually filling created_by and updated_by, the trait will automatically fill the fields with current auth user id, or just leave it null if no user logged in. And whenever you update a record the trait will fill only the updated_by column.
+
+
+## License
+
+This code is licensed under the [MIT license](https://opensource.org/licenses/MIT).
